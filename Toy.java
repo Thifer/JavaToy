@@ -1,6 +1,6 @@
 public class Toy {
-    private int id;
-    private String name;
+    private final int id;
+    private final String name;
     private int count;
     private float chance;
 
@@ -29,5 +29,9 @@ public class Toy {
 
     public void setCount(int count) {
         this.count = count;
+    }
+
+    public void setChance(float chance) {
+        this.chance = chance;
     }
 }
